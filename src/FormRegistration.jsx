@@ -4,7 +4,7 @@ function FormRegistration() {
     return (
         <div className="body">
 
-            <form > 
+            <form style={{ width:"700px", marginLeft:"300px"}}> 
                 <div className="fom1">
                     <h2>Codetrain Registration Form</h2> <br />
                     <p>this form is the first step to register for Codetrain's starting on 25th july 2020. our admissions team will reach out to you after successfully submitting your form.</p>
@@ -56,9 +56,12 @@ function FormRegistration() {
                     <input type="text" name="name" style={{ border: 'none', borderBottom: '1px solid black' }} placeholder="Your answer" />
                 </div>
             </form>
+            <center>
             <p>A copy of your responses will be emailed to the address you provided.</p>
-	<center><div className="bar"></div></center> 
-	<input type="Submit" name="Submit" style={{color: "white", backgroundColor: "blue", border: "none", borderRadius: "10px", padding: "5px"}}/>
+	<div className="bar"></div>
+    </center> 
+	<input type="Submit" name="Submit" style={{color: "white", backgroundColor: "blue", border: "none", padding: "5px", marginLeft:"400px",marginBottom:"10px"}}/>
+    
         </div>
         
     )
