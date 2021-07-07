@@ -1,0 +1,23 @@
+.body{ background-color: lightblue; }
+.fom1{
+	border-top: 15px solid blue;
+	background-color: white;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 15px;
+}
+.fom2,.fom3,.fom4,.fom5,.fom6,.fom7,.fom8,.fom9,.fom10,.fom11{
+	background-color: white;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 15px;
+
+
+}
+.bar{
+	border:5px solid green;
+	width: 75px;
+	border-radius: 10px;
+}
+input{ border: none;
+border-bottom: 1px solid black; }
