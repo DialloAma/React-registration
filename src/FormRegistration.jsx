@@ -56,7 +56,11 @@ function FormRegistration() {
                     <input type="text" name="name" style={{ border: 'none', borderBottom: '1px solid black' }} placeholder="Your answer" />
                 </div>
             </form>
+            <p>A copy of your responses will be emailed to the address you provided.</p>
+	<center><div className="bar"></div></center> 
+	<input type="Submit" name="Submit" style={{color: "white", backgroundColor: "blue", border: "none", borderRadius: "10px", padding: "5px"}}/>
         </div>
+        
     )
 }
 export default FormRegistration
